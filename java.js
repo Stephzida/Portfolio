@@ -68,3 +68,4 @@ document.getElementById('change-button').addEventListener('click', function() {
     document.getElementById('welcome-text').textContent = 'Welcome! ';
   }
 });
+

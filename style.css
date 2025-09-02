@@ -1,0 +1,100 @@
+body{
+    box-sizing: border-box;
+    background-color:antiquewhite !important;
+}
+@font-face {
+    font-family: lora-italics;
+    src: url(Lora/Lora-Italic-VariableFont_wght.ttf);
+}
+div{
+    font-family: lora-italics;
+}
+
+main{
+    background-image: url('image/portfolio.jpg') !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.min-vh-80{
+    min-height: 80vh;
+}
+.min-vh-90{
+    min-height: 90vh;
+}
+.min-vh-60{
+    min-height: 60vh;
+}
+.h-60{
+    height: 60vh;
+}
+.h-20{
+    height: 20vh;
+}
+.h-40{
+    height: 40vh;
+}
+.myHeader {
+    margin-top: 40px;
+}
+.button{
+    padding: 20px;
+}
+.service{
+    /* border: 2px solid black; */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+    margin-top: 40px;
+    background-color: wheat;
+}
+a:hover{
+    border-bottom: 2px solid black;
+}
+ul li{
+    text-decoration: none;
+}
+footer{
+    /* border-top: 2px solid black; */
+    box-shadow: 3px 3px 10px black;
+    background-color: rgba( 0, 0, 0, 0.3);
+   
+}
+.footernav{
+    border-top: 1px solid whitesmoke;
+}
+/* .fade-in-box{
+    opacity: 0;
+    animation: fadein 3s forwards;
+}
+
+@keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity:1;
+    }
+} */
+
+.fade-in-box{
+    opacity: 0;
+    transition: opacity 1.5s ;
+}
+.fade-in-box.show{
+    opacity:1;
+    
+}
+#change-button{
+    padding: 5px !important;
+    border-radius: 10px;
+    color: wheat;
+    background-color: red;
+    box-shadow: 3px 3px 10px black;
+}
+
+#change-button:hover{
+    transform: scale(1.5,1.5);
+}
+
+
+
